@@ -73,11 +73,11 @@ window.onload = function() {
         }
 
         this.drawWhite = function() {
-            this.graphics.beginStroke('#000').beginFill('#fff').drawRect(0, 0, w / 4, h / 4).endFill();
+            this.graphics.beginStroke('#000').beginFill('#fff').drawRect(1, 1, w / 4, h / 4).endFill();
         }
 
         this.drawBlack = function() {
-            this.graphics.beginStroke('#000').beginFill('#000').drawRect(0, 0, w / 4, h / 4).endFill();
+            this.graphics.beginStroke('#000').beginFill('#000').drawRect(1, 1, w / 4, h / 4).endFill();
         }
     }
 
